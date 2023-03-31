@@ -1,0 +1,265 @@
+*{
+    list-style-type:none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+
+
+  
+
+body{
+    background-color: black;
+}
+
+
+
+
+
+#logo{
+    position: absolute;
+    width:20%;
+    height: 13vh;
+    left: 0;
+    top: 0;
+    
+}
+
+nav{
+    background-color: #B77729;
+    width: 100%;
+    height: 15vh;
+    border-bottom: 28px solid darkgoldenrod ;
+    
+}
+
+ul {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    gap: 8vw;
+}
+
+.navbarlinks{
+    background-color:#B77729;
+    border: 20px solid #B77729;
+    color: white;
+    font-size: x-large;
+ }
+
+.navbarlinks:hover{
+    background-color:#F4E9DE;
+    border: 20px solid #F4E9DE;
+    background-color:darkgoldenrod;
+    border: 20px solid darkgoldenrod;
+    list-style-type:none;
+    text-decoration: none;
+    color: black;
+}
+
+
+.sc-v{
+    display: flex;
+    justify-content: center;
+}
+
+.texts{
+    color: white;
+    text-align: center;
+}
+
+.lines{
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    
+}
+
+.lineup{
+    color: #b7772900;
+}
+
+video{
+    position: relative;
+    object-fit: contain;
+    
+    height:70%;
+    width: 70%;
+}
+
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow:hidden ;
+    background-color: aqua;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 800px;
+
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 380px;
+    display: flex;
+    justify-content: center;
+
+}
+body{
+    overflow-x: hidden;
+}
+.immg{
+    width: 100vw;
+}
+.slider{
+    background-color: aqua;
+}
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px ;
+}
+
+.manual-btn:hover{
+    background-color: white;
+
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+
+}
+
+
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+
+}
+
+#radio1:checked ~.navigation-auto .auto-btn1{
+    background-color: white;
+}
+
+#radio2:checked ~.navigation-auto .auto-btn2{
+    background-color: white;
+}
+
+#radio3:checked ~.navigation-auto .auto-btn3{
+    background-color: white;
+}
+
+#radio4:checked ~.navigation-auto .auto-btn4{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerall{
+    display:flex ;
+    flex-direction: column;
+    background-color: #B77729;
+    width: 100%;
+    height: 20vh;
+    list-style-type:none;
+    text-decoration: none;
+    
+}
+
+.imgfooter{
+    width: 3vw;
+    list-style-type:none;
+    text-decoration: none;
+    background-color: aqua;
+}
+
+.afooter{
+    list-style-type:none;
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+}
+
+#whatsapp{
+    color: #45b729;
+
+}
+#insta{
+    color: purple;
+}
+
+#face{
+    color: rgb(0, 132, 255);
+}
+
+.redes_sociais1{
+    display: flex;
+    justify-content: space-between;
+    margin-right:0 ;
+    padding: 10px;
+}
+
+.whats>a{
+    color: #45b729;
+}
+.facebook>a{
+    color: rgb(0, 132, 255);
+}
